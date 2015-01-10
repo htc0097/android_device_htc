@@ -1,2 +1,7 @@
 # android_device_htc
-build config for marvel
+CyanogenMod 9 for HTC Wildfire S (Marvel)
+How to built :
+[code]$ cd ~/ICS
+$ . build/envsetup.sh
+$ lunch cm_marvel-userdebug
+$ make -j4 bacon[/code]
